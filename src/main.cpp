@@ -3,13 +3,15 @@
 #include "../include/VadDetector.h"
 #include "../include/SogouVadDetector.h"
 
+using namespace std;
+
 int main() {
     VadDetector *vadDetector = new SogouVadDetector();
     short voices[] = {1, 2, 3, 4, 5};
     vadDetector->detect(voices, 5, 0);
 
     for (int i = 0; i < 5; ++i) {
-        std::cout << "vadDetector vaildVoices: " << vadDetector->vaildVoices[i] << " "<< std::endl;
+        cout << "vadDetector vaildVoices: " << vadDetector->vaildVoices[i] << " "<< endl;
     }
 
     delete (vadDetector);
