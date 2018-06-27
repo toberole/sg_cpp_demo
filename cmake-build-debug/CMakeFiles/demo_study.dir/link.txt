@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o CMakeFiles/demo_study.dir/src/main.cpp.o  -o demo_study 

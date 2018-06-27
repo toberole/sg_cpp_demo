@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
+VadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/include/WebRtcVadDetector.h
+VadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/src/SogouVadDetector.cpp
+../include/SogouVadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/src/WebRtcVadDetector.cpp
+../include/WebRtcVadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/WebRtcVadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/src/main.cpp
+iostream
+-
+../include/VadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+../include/SogouVadDetector.h
+/Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
+
