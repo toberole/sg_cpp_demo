@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o"
+  "CMakeFiles/demo_study.dir/src/Shape.cpp.o"
   "CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o"
+  "CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o"
   "CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o"
   "CMakeFiles/demo_study.dir/src/main.cpp.o"
   "demo_study.pdb"

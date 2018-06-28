@@ -11,6 +11,7 @@ public:
 
 public:
     short *vaildVoices;
+    int len;
     int start;
     int end;
 };

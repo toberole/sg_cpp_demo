@@ -82,7 +82,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/include/Rect.h">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/include/Shape.h">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/include/Student.h">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.cpp">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.h">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/DataProcessor.h">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/Shape.cpp">
+			<Option target="demo_study"/>
+		</Unit>
 		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/SogouVadDetector.cpp">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.cpp">
+			<Option target="demo_study"/>
+		</Unit>
+		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.h">
 			<Option target="demo_study"/>
 		</Unit>
 		<Unit filename="/Users/apple/code/cpp_code/demo_study/src/WebRtcVadDetector.cpp">

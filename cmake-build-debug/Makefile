@@ -123,6 +123,60 @@ demo_study/fast:
 	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/build
 .PHONY : demo_study/fast
 
+src/AppDataProcessor.o: src/AppDataProcessor.cpp.o
+
+.PHONY : src/AppDataProcessor.o
+
+# target to build an object file
+src/AppDataProcessor.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o
+.PHONY : src/AppDataProcessor.cpp.o
+
+src/AppDataProcessor.i: src/AppDataProcessor.cpp.i
+
+.PHONY : src/AppDataProcessor.i
+
+# target to preprocess a source file
+src/AppDataProcessor.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.i
+.PHONY : src/AppDataProcessor.cpp.i
+
+src/AppDataProcessor.s: src/AppDataProcessor.cpp.s
+
+.PHONY : src/AppDataProcessor.s
+
+# target to generate assembly for a file
+src/AppDataProcessor.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.s
+.PHONY : src/AppDataProcessor.cpp.s
+
+src/Shape.o: src/Shape.cpp.o
+
+.PHONY : src/Shape.o
+
+# target to build an object file
+src/Shape.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/Shape.cpp.o
+.PHONY : src/Shape.cpp.o
+
+src/Shape.i: src/Shape.cpp.i
+
+.PHONY : src/Shape.i
+
+# target to preprocess a source file
+src/Shape.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/Shape.cpp.i
+.PHONY : src/Shape.cpp.i
+
+src/Shape.s: src/Shape.cpp.s
+
+.PHONY : src/Shape.s
+
+# target to generate assembly for a file
+src/Shape.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/Shape.cpp.s
+.PHONY : src/Shape.cpp.s
+
 src/SogouVadDetector.o: src/SogouVadDetector.cpp.o
 
 .PHONY : src/SogouVadDetector.o
@@ -149,6 +203,33 @@ src/SogouVadDetector.s: src/SogouVadDetector.cpp.s
 src/SogouVadDetector.cpp.s:
 	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.s
 .PHONY : src/SogouVadDetector.cpp.s
+
+src/SysDataProcessor.o: src/SysDataProcessor.cpp.o
+
+.PHONY : src/SysDataProcessor.o
+
+# target to build an object file
+src/SysDataProcessor.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o
+.PHONY : src/SysDataProcessor.cpp.o
+
+src/SysDataProcessor.i: src/SysDataProcessor.cpp.i
+
+.PHONY : src/SysDataProcessor.i
+
+# target to preprocess a source file
+src/SysDataProcessor.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.i
+.PHONY : src/SysDataProcessor.cpp.i
+
+src/SysDataProcessor.s: src/SysDataProcessor.cpp.s
+
+.PHONY : src/SysDataProcessor.s
+
+# target to generate assembly for a file
+src/SysDataProcessor.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.s
+.PHONY : src/SysDataProcessor.cpp.s
 
 src/WebRtcVadDetector.o: src/WebRtcVadDetector.cpp.o
 
@@ -213,9 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo_study"
+	@echo "... src/AppDataProcessor.o"
+	@echo "... src/AppDataProcessor.i"
+	@echo "... src/AppDataProcessor.s"
+	@echo "... src/Shape.o"
+	@echo "... src/Shape.i"
+	@echo "... src/Shape.s"
 	@echo "... src/SogouVadDetector.o"
 	@echo "... src/SogouVadDetector.i"
 	@echo "... src/SogouVadDetector.s"
+	@echo "... src/SysDataProcessor.o"
+	@echo "... src/SysDataProcessor.i"
+	@echo "... src/SysDataProcessor.s"
 	@echo "... src/WebRtcVadDetector.o"
 	@echo "... src/WebRtcVadDetector.i"
 	@echo "... src/WebRtcVadDetector.s"

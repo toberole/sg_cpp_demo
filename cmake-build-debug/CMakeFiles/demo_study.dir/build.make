@@ -57,9 +57,57 @@ include CMakeFiles/demo_study.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/demo_study.dir/flags.make
 
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o: CMakeFiles/demo_study.dir/flags.make
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o: ../src/AppDataProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.cpp
+
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.cpp > CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.i
+
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.cpp -o CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.s
+
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.requires:
+
+.PHONY : CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.requires
+
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.provides: CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.provides.build
+.PHONY : CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.provides
+
+CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.provides.build: CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o
+
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.o: CMakeFiles/demo_study.dir/flags.make
+CMakeFiles/demo_study.dir/src/Shape.cpp.o: ../src/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo_study.dir/src/Shape.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/Shape.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/Shape.cpp
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_study.dir/src/Shape.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/code/cpp_code/demo_study/src/Shape.cpp > CMakeFiles/demo_study.dir/src/Shape.cpp.i
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_study.dir/src/Shape.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/code/cpp_code/demo_study/src/Shape.cpp -o CMakeFiles/demo_study.dir/src/Shape.cpp.s
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.o.requires:
+
+.PHONY : CMakeFiles/demo_study.dir/src/Shape.cpp.o.requires
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.o.provides: CMakeFiles/demo_study.dir/src/Shape.cpp.o.requires
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/Shape.cpp.o.provides.build
+.PHONY : CMakeFiles/demo_study.dir/src/Shape.cpp.o.provides
+
+CMakeFiles/demo_study.dir/src/Shape.cpp.o.provides.build: CMakeFiles/demo_study.dir/src/Shape.cpp.o
+
+
 CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o: CMakeFiles/demo_study.dir/flags.make
 CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o: ../src/SogouVadDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/SogouVadDetector.cpp
 
 CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.i: cmake_force
@@ -81,9 +129,33 @@ CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o.provides: CMakeFiles/demo_s
 CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o.provides.build: CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o
 
 
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o: CMakeFiles/demo_study.dir/flags.make
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o: ../src/SysDataProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.cpp
+
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.cpp > CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.i
+
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.cpp -o CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.s
+
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.requires:
+
+.PHONY : CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.requires
+
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.provides: CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/demo_study.dir/build.make CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.provides.build
+.PHONY : CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.provides
+
+CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.provides.build: CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o
+
+
 CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o: CMakeFiles/demo_study.dir/flags.make
 CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o: ../src/WebRtcVadDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/WebRtcVadDetector.cpp
 
 CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.i: cmake_force
@@ -107,7 +179,7 @@ CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/demo_study.dir/src/main.cpp.o: CMakeFiles/demo_study.dir/flags.make
 CMakeFiles/demo_study.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo_study.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/demo_study.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_study.dir/src/main.cpp.o -c /Users/apple/code/cpp_code/demo_study/src/main.cpp
 
 CMakeFiles/demo_study.dir/src/main.cpp.i: cmake_force
@@ -131,19 +203,25 @@ CMakeFiles/demo_study.dir/src/main.cpp.o.provides.build: CMakeFiles/demo_study.d
 
 # Object files for target demo_study
 demo_study_OBJECTS = \
+"CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o" \
+"CMakeFiles/demo_study.dir/src/Shape.cpp.o" \
 "CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o" \
+"CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o" \
 "CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o" \
 "CMakeFiles/demo_study.dir/src/main.cpp.o"
 
 # External object files for target demo_study
 demo_study_EXTERNAL_OBJECTS =
 
+demo_study: CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o
+demo_study: CMakeFiles/demo_study.dir/src/Shape.cpp.o
 demo_study: CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o
+demo_study: CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o
 demo_study: CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o
 demo_study: CMakeFiles/demo_study.dir/src/main.cpp.o
 demo_study: CMakeFiles/demo_study.dir/build.make
 demo_study: CMakeFiles/demo_study.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable demo_study"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/code/cpp_code/demo_study/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable demo_study"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_study.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,7 +229,10 @@ CMakeFiles/demo_study.dir/build: demo_study
 
 .PHONY : CMakeFiles/demo_study.dir/build
 
+CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o.requires
+CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/Shape.cpp.o.requires
 CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o.requires
+CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o.requires
 CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o.requires
 CMakeFiles/demo_study.dir/requires: CMakeFiles/demo_study.dir/src/main.cpp.o.requires
 

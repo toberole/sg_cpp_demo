@@ -6,15 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/Users/apple/code/cpp_code/demo_study/include/Rect.h
+Shape.h
+/Users/apple/code/cpp_code/demo_study/include/Shape.h
+
+/Users/apple/code/cpp_code/demo_study/include/Shape.h
+
 /Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
 VadDetector.h
 /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/include/Student.h
 
 /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
 
 /Users/apple/code/cpp_code/demo_study/include/WebRtcVadDetector.h
 VadDetector.h
 /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+
+/Users/apple/code/cpp_code/demo_study/src/Shape.cpp
+../include/Shape.h
+/Users/apple/code/cpp_code/demo_study/include/Shape.h
 
 /Users/apple/code/cpp_code/demo_study/src/SogouVadDetector.cpp
 ../include/SogouVadDetector.h
@@ -31,4 +43,8 @@ iostream
 /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
 ../include/SogouVadDetector.h
 /Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
+../include/Rect.h
+/Users/apple/code/cpp_code/demo_study/include/Rect.h
+../include/Student.h
+/Users/apple/code/cpp_code/demo_study/include/Student.h
 
