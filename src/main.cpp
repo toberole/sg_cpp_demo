@@ -5,6 +5,8 @@
 #include "../include/Rect.h"
 #include "../include/Student.h"
 
+#include <stdio.h>
+
 using namespace std;
 
 int main() {
@@ -18,7 +20,6 @@ int main() {
 
     SogouVadDetector sogouVadDetector;
     sogouVadDetector.end = 11;
-    VadDetector v = sogouVadDetector;
 
     // reinterpret_cast<>
 
@@ -32,8 +33,14 @@ int main() {
     student.age = 11;
 
 
-    int arr[10];
-    arr[0] = 1;
+    int arr[]= {5,4,3,2,1};// 获取数组的长度
+    cout<<"the len of arr:"<< sizeof(arr)/ sizeof(int)<<endl;
+
+    int *a = new int[5];
+    char b[30];
+    char *c;
+
+    printf("%d, %d, %d\n", sizeof(a), sizeof(b),sizeof(c));
 
     return 0;
 }

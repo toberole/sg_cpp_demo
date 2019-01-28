@@ -53,4 +53,3 @@ add_executable(demo_study  ${DIR_SRCS} src/Shape.cpp include/Shape.h include/Rec
 
 
 
-
