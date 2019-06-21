@@ -1,7 +1,3 @@
-//
-// Created by Apple on 2018/6/28.
-//
-
 #ifndef DEMO_STUDY_SYSDATAPROCESSOR_H
 #define DEMO_STUDY_SYSDATAPROCESSOR_H
 

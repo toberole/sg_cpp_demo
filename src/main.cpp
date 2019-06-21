@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "../include/VadDetector.h"
-#include "../include/SogouVadDetector.h"
-#include "../include/Rect.h"
-#include "../include/Student.h"
+#include "VadDetector.h"
+#include "SogouVadDetector.h"
+#include "Rect.h"
+#include "Student.h"
 
 #include <stdio.h>
 
@@ -31,7 +31,6 @@ int main() {
     // Student *student = new Student();
     Student student;
     student.age = 11;
-
 
     int arr[]= {5,4,3,2,1};// 获取数组的长度
     cout<<"the len of arr:"<< sizeof(arr)/ sizeof(int)<<endl;

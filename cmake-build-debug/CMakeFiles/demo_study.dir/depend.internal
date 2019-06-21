@@ -6,24 +6,24 @@ CMakeFiles/demo_study.dir/src/AppDataProcessor.cpp.o
  /Users/apple/code/cpp_code/demo_study/src/AppDataProcessor.h
  /Users/apple/code/cpp_code/demo_study/src/DataProcessor.h
 CMakeFiles/demo_study.dir/src/Shape.cpp.o
- /Users/apple/code/cpp_code/demo_study/include/Shape.h
+ ../include/Shape.h
  /Users/apple/code/cpp_code/demo_study/src/Shape.cpp
 CMakeFiles/demo_study.dir/src/SogouVadDetector.cpp.o
- /Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
- /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+ ../include/SogouVadDetector.h
+ ../include/VadDetector.h
  /Users/apple/code/cpp_code/demo_study/src/SogouVadDetector.cpp
 CMakeFiles/demo_study.dir/src/SysDataProcessor.cpp.o
  /Users/apple/code/cpp_code/demo_study/src/DataProcessor.h
  /Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.cpp
  /Users/apple/code/cpp_code/demo_study/src/SysDataProcessor.h
 CMakeFiles/demo_study.dir/src/WebRtcVadDetector.cpp.o
- /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
- /Users/apple/code/cpp_code/demo_study/include/WebRtcVadDetector.h
+ ../include/VadDetector.h
+ ../include/WebRtcVadDetector.h
  /Users/apple/code/cpp_code/demo_study/src/WebRtcVadDetector.cpp
 CMakeFiles/demo_study.dir/src/main.cpp.o
- /Users/apple/code/cpp_code/demo_study/include/Rect.h
- /Users/apple/code/cpp_code/demo_study/include/Shape.h
- /Users/apple/code/cpp_code/demo_study/include/SogouVadDetector.h
- /Users/apple/code/cpp_code/demo_study/include/Student.h
- /Users/apple/code/cpp_code/demo_study/include/VadDetector.h
+ ../include/Rect.h
+ ../include/Shape.h
+ ../include/SogouVadDetector.h
+ ../include/Student.h
+ ../include/VadDetector.h
  /Users/apple/code/cpp_code/demo_study/src/main.cpp

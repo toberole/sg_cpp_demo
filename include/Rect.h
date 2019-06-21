@@ -1,7 +1,3 @@
-//
-// Created by Apple on 2018/6/27.
-//
-
 #ifndef DEMO_STUDY_RECT_H
 #define DEMO_STUDY_RECT_H
 
@@ -16,8 +12,6 @@ public:
     int acreage() {
         return width * height;
     }
-
-
 };
 
 #endif //DEMO_STUDY_RECT_H

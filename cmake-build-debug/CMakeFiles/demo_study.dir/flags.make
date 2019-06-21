@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/apple/code/cpp_code/demo_study/./../include 
+CXX_INCLUDES = -I/Users/apple/code/cpp_code/demo_study/include 
 

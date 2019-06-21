@@ -1,7 +1,3 @@
-//
-// Created by Apple on 2018/6/28.
-//
-
 #include "AppDataProcessor.h"
 
 short * AppDataProcessor::process(short *data, int len) {
